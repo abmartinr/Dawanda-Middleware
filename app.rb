@@ -1,4 +1,4 @@
-DawandaMiddleware < Sinatra::Base
+class DawandaMiddleware < Sinatra::Base
 
     # Dawanda hook endpoint
     #
@@ -24,7 +24,7 @@ DawandaMiddleware < Sinatra::Base
     end
 
     # retrieve order details from dawanda
-    def retrieve_order (order_id)
+    def retrieve_order(order_id)
 
     end
 
@@ -33,8 +33,7 @@ DawandaMiddleware < Sinatra::Base
 
     end
 
-    def parsed_xml (xml)
+    def parsed_xml(xml)
 
     end
-
 end
